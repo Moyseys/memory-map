@@ -5,7 +5,8 @@
     "dev": "vite src",
     "build": "vite build",
     "watch": "vite build --watch",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "flask-dev": "npm run watch & flask run --debug"
   },
   "dependencies": {
     "three": "^0.160.0"

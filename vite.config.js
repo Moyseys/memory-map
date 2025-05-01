@@ -6,6 +6,9 @@ export default defineConfig({
   build: {
     outDir: "../static",
     emptyOutDir: true,
+    watch: {
+      include: "src/**",
+    },
     rollupOptions: {
       input: {
         main: resolve(__dirname, "src/js/main.js"),
