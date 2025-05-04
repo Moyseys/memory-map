@@ -1,0 +1,10 @@
+{
+  "installation": {
+    "version": "20.8.1"
+  },
+  "$schema": "./node_modules/nx/schemas/nx-schema.json",
+  "nxCloudId": "6816cb4f54028759f48c5446",
+  "plugins": [
+    "@nx-dotnet/core"
+  ]
+}

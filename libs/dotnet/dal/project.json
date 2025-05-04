@@ -1,0 +1,9 @@
+{
+  "name": "libs/dotnet/dal",
+  "$schema": "../../../node_modules/nx/schemas/project-schema.json",
+  "projectType": "library",
+  "sourceRoot": "libs/dotnet/dal",
+  "tags": [],
+  "// targets": "to see all targets run: nx show project libs/dotnet/dal --web",
+  "targets": {}
+}

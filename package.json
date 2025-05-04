@@ -1,17 +1,10 @@
 {
-  "name": "memory-modal-project",
-  "version": "1.0.0",
-  "scripts": {
-    "dev": "vite src",
-    "build": "vite build",
-    "watch": "vite build --watch",
-    "preview": "vite preview",
-    "flask-dev": "npm run watch & flask run --debug"
-  },
-  "dependencies": {
-    "three": "^0.160.0"
-  },
   "devDependencies": {
-    "vite": "^5.0.0"
-  }
+    "@nx-dotnet/core": "^2.5.0",
+    "@nx/js": "20.8.1"
+  },
+  "scripts": {
+    "prepare": "nx g @nx-dotnet/core:restore"
+  },
+  "dependencies": {}
 }
